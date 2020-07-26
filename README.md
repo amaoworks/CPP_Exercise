@@ -1,2 +1,2 @@
-# CPP_Prime_Exercise
-My solution of exercises after the book
+# CPP_Exercise
+To improve my coding skills, so please do more exercise!!!!!!!!!! 
