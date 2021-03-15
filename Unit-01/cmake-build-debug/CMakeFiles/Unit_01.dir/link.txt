@@ -1,3 +1,0 @@
-C:\Source\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Unit_01.dir/objects.a
-C:\Source\Mingw_W64\mingw64\bin\ar.exe cr CMakeFiles\Unit_01.dir/objects.a @CMakeFiles\Unit_01.dir\objects1.rsp
-C:\Source\Mingw_W64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Unit_01.dir/objects.a -Wl,--no-whole-archive  -o Unit_01.exe -Wl,--out-implib,libUnit_01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Unit_01.dir\linklibs.rsp

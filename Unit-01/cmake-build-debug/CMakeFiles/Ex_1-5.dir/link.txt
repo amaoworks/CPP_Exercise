@@ -1,3 +1,0 @@
-C:\Source\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Ex_1-5.dir/objects.a
-C:\Source\Mingw_W64\mingw64\bin\ar.exe cr CMakeFiles\Ex_1-5.dir/objects.a @CMakeFiles\Ex_1-5.dir\objects1.rsp
-C:\Source\Mingw_W64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Ex_1-5.dir/objects.a -Wl,--no-whole-archive  -o Ex_1-5.exe -Wl,--out-implib,libEx_1-5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Ex_1-5.dir\linklibs.rsp

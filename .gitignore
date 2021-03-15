@@ -1,0 +1,5 @@
+# ignore  the  Idea configuration
+# --- idea ---
+.idea/
+cmake-build-debug/
+CMakeLists.txt
