@@ -3,9 +3,24 @@
  * vector 之中，元素个数由用户指定。请检查元素个数的有效性（太大则可能引发 overflow 问题）。接下来编写第二个函数，能够将给定的 vector 的所有
  * 元素一一打印出来。此函数的第二参数接受一个字符串，表示存放在 vector 内的数列的类型。最后再写一个 main() ,测试上述两个函数。
  */
-#include <iostream>
+#include "array.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    vector<int> user_array ;
+    string array_type = "int";
+    int array_size = 0;
+//    int ret = 0;
+
+    cout << "Please input number to init the array (It need >= 0 & < 100) :" << endl;
+    cin >> array_size;
+
+//    ret = generate_array(user_array, array_size);
+//    cout << ret << endl;
+
+    if (generate_array(user_array, array_size) == 0)
+        print_array(user_array, array_type);
+    else
+        cout << "Because you input an error number, the array init fail !" << endl;
+
     return 0;
 }
